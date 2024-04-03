@@ -1,1 +1,133 @@
-/* your code here */
+.bodyclass {
+	height:450px;
+	width:800px;
+	background-color: palegreen;
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	
+}
+.product {
+	border-radius:5px;
+	background-color:white;
+	width:390px;
+	height:380px;
+	display:flex;
+	justify-content:center;
+}
+.p1 {
+	width:180px;
+	position:relative;
+	right:30px;
+	top:25px;
+	
+}
+.photo-main {
+	background-color: greenyellow;
+	position:relative;
+	right:50px;
+	top:30px;
+	height:270px;
+	width:180px;
+	border-radius:5px;
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+}
+.controls {
+	color:white;
+	padding:10px;
+	display:flex;
+	justify-content:space-between;
+}
+.listapple {
+	list-style:none;
+	display:flex;
+	width:200px;
+}
+.photo-album {
+	background-color: white;
+	align-content:center;
+	height:75px;
+	width:180px;
+	position:relative;
+	top:10px;
+	right:50px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.p2 {
+	height:30px;
+	padding:1px;
+	border:1px solid grey;
+	position:relative;
+	right:12px;
+}
+.title h1 {
+	font-size:15px;
+	font-weight:bold;
+	font-family:"Lucida Console", "Courier New", monospace;
+	position:relative;
+	top:40px;
+	right:35px;
+}
+.title span {
+	font-size:10px;
+	font-weight:gray;
+	position:relative;
+	top:25px;
+	right:33px;
+}
+.price {
+	font-size:20px;
+	color:red;
+	font-family:"Lucida Console", "Courier New", monospace;
+	position:relative;
+	top:55px;
+	right:33px;
+	
+}
+.price span {
+	font-size:35px;
+}
+.variant {
+	position:relative;
+	top:65px;
+	right:33px;
+	
+}
+.variant h3,h3 {
+	font-size: 10px;
+	color:gray
+}
+.varient {
+	display:flex;
+	list-style:none;
+	justify-content:space-between;
+}
+.p3 {
+	height:20px;
+	padding:1px;
+}
+#selected {
+	border: 1px solid black;
+}
+.description {
+	position:relative;
+	top:65px;
+	right:33px;
+}
+.benefitsli {
+	font-size:9px;
+}
+.add {
+	position:relative;
+	top:60px;
+	right:33px;
+	width:100px;
+	height:30px;
+	font-size:11px;
+	font-weight:bold;
+	color:white;
+	border-radius:3px;
+	background-color:red;
+	border-color:red;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
